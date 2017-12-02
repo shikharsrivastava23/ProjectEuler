@@ -1,7 +1,13 @@
-import java.io.*
+import java.io.*;
 
 public class problem1{
 	public static void main(String args[]){
-		System.out.println("Hello World");
+		int sum=0;
+		for(int i=0;i<1000;i++)
+			if (i%3==0||i%5==0) {
+				sum+=i;
+			}
+
+		System.out.println(sum);
 	}
 }
